@@ -1,9 +1,6 @@
 html {
   font-family: 'Londrina Shadow', cursive;
-  background-color: #000;
-  background-color: #ee6309;
-  background-color: #fefe07;
-  background-color: #ffffd2;
+  background-color: #a00;
 }
 
 .container {
@@ -25,21 +22,20 @@ h1 {
   font-family: 'Londrina Shadow', cursive;
   text-align: center;
   font-size: 75px;
-  color: #aaaaaa;
+  color: #e58720;
   margin: 60px 0 0 0;
 }
 h2 {
   font-family: 'Architects Daughter', cursive;
   text-align: center;
-  color: #bbbbbb;
+  color: #a00;
   margin: 0px 0 70px 0;
 }
 
 p {
   font-family: 'Architects Daughter', cursive;
   font-size: 28px;
-  color: #fff;
-  color: #ffffd2;
+  color: #e58720;
   padding: 20px 20px;
   text-transform: uppercase;
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
@@ -72,5 +68,8 @@ p {
   float: right;
 }
 
-
+footer {
+  clear: both;
+  color: #e58720; 
+}
 
