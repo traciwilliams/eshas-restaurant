@@ -2,7 +2,6 @@ html {
   font-family: 'Londrina Shadow', cursive;
   background-color: #a00;
 }
-
 .container {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
@@ -40,8 +39,6 @@ p {
   text-transform: uppercase;
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
 }
-
-
 .first{
   background-image: url("images/burger.jpg");
   background-size: cover;
