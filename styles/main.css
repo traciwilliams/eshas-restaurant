@@ -70,3 +70,132 @@ footer {
   color: #e58720; 
 }
 
+/*================
+MEDIA QUERIES
+==================*/
+
+@media screen and (max-width: 479px) {
+  html{
+    background-color: linear-gradient(rgba(255,0,0,0.7), rgba(0,0,0,0.7));
+  }
+
+  h1 {
+    font-size: 250%;
+    color: #fff;
+
+  }
+
+  h2 {
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 150%;
+    color: #fff;
+    margin: 0px 0 70px 0;
+  }
+
+  p {
+    font-family: Arial;
+    font-size: 100%;
+    color: #ccc;
+    padding: 20px 20px;
+    text-transform: none;
+    background: linear-gradient(rgba(255,0,0,0.7), rgba(0,0,0,0.7));
+  }
+  footer {
+    clear: both;
+    color: #ccc; 
+  }
+}
+  
+
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  
+  html {
+    background-color: #000;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 100%;x
+  }
+
+  h1 {
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    font-size: 250%;
+    color: #fff;
+    margin: 60px 0 0 0;
+  }
+
+  h2 {
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 150%;
+    color: #fff;
+    margin: 0px 0 70px 0;
+  }
+
+  p {
+    font-family: Arial;
+    font-size: 100%;
+    color: #fff;
+    padding: 20px 20px;
+    text-transform: none;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  }
+  footer {
+    clear: both;
+    color: #fff; 
+  }
+
+  .first,
+  .second,
+  .third {
+    height: 50vh;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  
+  html {
+    background-color: lightgreen;
+  }
+
+  h1,
+  h2,
+  p,
+  footer {
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    text-transform: none;
+  }
+
+ .first{
+    background-image: url("images/burger.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    //background-attachment: fixed;
+  }
+
+.second{
+    background-image: url("images/thai-food.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    //background-attachment: fixed;
+  }
+
+.dessert{
+    background-image: url("images/dessert.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    //background-attachment: fixed;
+  }
+}
+
