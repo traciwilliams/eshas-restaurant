@@ -1,6 +1,5 @@
-## Project Name
+## Esha's Restaurant
 
-Esha's Restaurant
 
 ## Installing
 
@@ -24,3 +23,7 @@ Traci Williams
 ## License
 
 MIT
+
+
+
+![Alt text](readme-screenshots.jpg?raw=true "Esha's Restaurant")
